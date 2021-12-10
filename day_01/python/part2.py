@@ -1,6 +1,4 @@
-# https://adventofcode.com/2018/day/1
-
-lines = open('input').read().splitlines()
+lines = open('../input.txt').read().splitlines()
 
 # lines = '+7, +7, -2, -7, -4'.split(', ')
 
@@ -15,5 +13,3 @@ while True:
 		if frequency in frequencies:
 			print('Frequency: {}'.format(frequency))
 			exit()
-
-

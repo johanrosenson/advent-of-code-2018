@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const input = fs.readFileSync('input', 'utf8').split('\n');
+const input = fs.readFileSync('input.txt', 'utf8').split('\n');
 
 const checksum = (function (input) { // array
     var two = 0;
